@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kanija-database", "kanija-database\kanija-database.csproj", "{2B0F0178-5483-419C-873B-E66D77B8C5DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kanija-api", "kanija-api\kanija-api.csproj", "{688239EE-138F-4163-B0F2-61719718458F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B0F0178-5483-419C-873B-E66D77B8C5DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B0F0178-5483-419C-873B-E66D77B8C5DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B0F0178-5483-419C-873B-E66D77B8C5DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B0F0178-5483-419C-873B-E66D77B8C5DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688239EE-138F-4163-B0F2-61719718458F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688239EE-138F-4163-B0F2-61719718458F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688239EE-138F-4163-B0F2-61719718458F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688239EE-138F-4163-B0F2-61719718458F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
