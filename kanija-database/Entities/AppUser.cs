@@ -4,12 +4,8 @@ namespace kanija_database.Entities
 {
     public class AppUser : IdentityUser<Guid>
     {
-        public string DisplayName { get; set; }
+        public string DisplayName { get; set; } = "Unknown";
         public DateTime? CreatedTime { get; set; }
-
-        public AppUser()
-        {
-            DisplayName = "Unknown";
-        }
+        public UserInfor? UserInfor { get; set; }
     }
 }
