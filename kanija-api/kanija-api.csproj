@@ -16,6 +16,12 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\kanija-database\kanija-database.csproj" />
   </ItemGroup>
 
 </Project>

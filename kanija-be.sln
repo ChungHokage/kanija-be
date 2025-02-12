@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kanija-database", "kanija-database\kanija-database.csproj", "{2B0F0178-5483-419C-873B-E66D77B8C5DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kanija-database", "kanija-database\kanija-database.csproj", "{2B0F0178-5483-419C-873B-E66D77B8C5DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kanija-api", "kanija-api\kanija-api.csproj", "{688239EE-138F-4163-B0F2-61719718458F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kanija-api", "kanija-api\kanija-api.csproj", "{688239EE-138F-4163-B0F2-61719718458F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2B0F0178-5483-419C-873B-E66D77B8C5DC} = {2B0F0178-5483-419C-873B-E66D77B8C5DC}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
