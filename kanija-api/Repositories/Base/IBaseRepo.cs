@@ -2,7 +2,7 @@
 {
     public interface IBaseRepo<T> where T : class
     {
-        Task<T?> GetByIdAsync(int id);
+        Task<T?> GetByIdAsync(Guid id);
 
         Task<IEnumerable<T>> GetAllAsync();
 
