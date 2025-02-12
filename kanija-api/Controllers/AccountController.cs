@@ -3,7 +3,6 @@ using System.Security.Claims;
 using System.Text;
 using kanija_api.DTOs.Auth;
 using kanija_database.Entities;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;

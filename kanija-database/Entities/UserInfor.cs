@@ -1,5 +1,4 @@
-﻿using System.Reflection;
-using kanija_database.Enum;
+﻿using kanija_database.Enum;
 
 namespace kanija_database.Entities
 {

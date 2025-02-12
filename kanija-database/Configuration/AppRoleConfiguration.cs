@@ -1,7 +1,6 @@
-﻿using System.Threading.Tasks;
-using kanija_database.Entities;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
+﻿using kanija_database.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace kanija_database.Configuration
 {
